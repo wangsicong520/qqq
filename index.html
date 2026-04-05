@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxo Exclusivo - Especialista em Marcas de Luxo</title>
+
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+      ttq.load('D78MURBC77UA4NO2H59G');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+
+    <style>
+        body {font-family: Arial; margin:0; background:#f8f8f8; display:flex; justify-content:center;}
+        .container {max-width:500px; background:#fff; width:100%; padding-bottom:80px;}
+        img {width:100%;}
+        .content {padding:20px; text-align:center;}
+        h1 {font-size:22px;}
+        .cta {background:#25D366;color:#fff;padding:18px;border-radius:50px;display:block;text-decoration:none;font-weight:bold;margin-top:20px;}
+        .fixed {position:fixed;bottom:20px;width:90%;max-width:500px;}
+        .float {background:#25D366;color:#fff;padding:15px;border-radius:50px;text-align:center;text-decoration:none;display:block;}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="hero.jpg">
+    <div class="content">
+        <h1>Catálogo Premium no WhatsApp</h1>
+        <a href="https://wa.me/8615168272932?text=Olá,%20tenho%20interesse%20no%20produto" 
+           class="cta" onclick="trackClick()">
+            VER CATÁLOGO
+        </a>
+    </div>
+</div>
+
+<div class="fixed">
+    <a href="https://wa.me/8615168272932?text=Olá,%20tenho%20interesse%20no%20produto" 
+       class="float" onclick="trackClick()">
+        Falar no WhatsApp
+    </a>
+</div>
+
+<script>
+function trackClick(){
+    if(typeof ttq!=='undefined'){
+        ttq.track('Contact');
+        ttq.track('ClickButton');
+    }
+}
+</script>
+
+</body>
+</html>
